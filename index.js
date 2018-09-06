@@ -1,7 +1,7 @@
 var line = []
 
 function takeANumber(currentLine){
-  currentLine.push(currentLine.length);
+  currentLine.push(currentLine.length + 1);
   console.log(` You are number ${currentLine.length} in line.`);
 }
 
