@@ -36,6 +36,7 @@ function currentLine(currentLine){
 
 takeANumber(line)
 takeANumber(line)
+currentLine(line)
 nowServing(line)
 nowServing(line)
 console.log(line)
