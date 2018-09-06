@@ -1,16 +1,18 @@
+var line = []
+
 function takeANumber(currentLine, name){
   currentLine.push(name);
-  return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
+  console.log(`Welcome, ${name}. You are number ${currentLine.length} in line.`);
 }
 
 function nowServing(currentLine){
   if (currentLine.length !== 0) {
     var announcement = `Currently serving ${currentLine[0]}.`;
     currentLine.splice(0,1);
-    return announcement;
+    console.log(announcement);
     
   }else{
-    return "There is nobody waiting to be served!";
+    console.log("There is nobody waiting to be served!");
   }
 }
 
@@ -30,3 +32,6 @@ function currentLine(currentLine){
   return announcement;
 }
 
+takeANumber(line, "Cernan")
+takeANumber(line, "Ashley")
+nowServing(line)
