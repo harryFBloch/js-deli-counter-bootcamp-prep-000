@@ -32,9 +32,9 @@ function currentLine(currentLine){
   return announcement;
 }
 
-takeANumber(line, "Cernan")
-takeANumber(line, "Ashley")
+takeANumber(line)
+takeANumber(line)
 nowServing(line)
 nowServing(line)
 console.log(line)
-takeANumber(line, "John")
+takeANumber(line)
