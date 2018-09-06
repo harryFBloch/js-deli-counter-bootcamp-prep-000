@@ -1,8 +1,8 @@
 var line = []
 
-function takeANumber(currentLine, name){
-  currentLine.push(name);
-  console.log(`Welcome, ${name}. You are number ${currentLine.length} in line.`);
+function takeANumber(currentLine){
+  currentLine.push(currentLine.length);
+  console.log(` You are number ${currentLine.length} in line.`);
 }
 
 function nowServing(currentLine){
