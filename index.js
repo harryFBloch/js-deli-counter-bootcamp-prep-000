@@ -9,7 +9,7 @@ function takeANumber(currentLine){
 
 function nowServing(currentLine){
   if (currentLine.length !== 0) {
-    var announcement = `Currently serving ${currentLine[0]}.`;
+    var announcement = `Currently serving ${ticketNumber}.`;
     currentLine.splice(0,1);
     console.log(announcement);
     
