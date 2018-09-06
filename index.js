@@ -35,3 +35,4 @@ function currentLine(currentLine){
 takeANumber(line, "Cernan")
 takeANumber(line, "Ashley")
 nowServing(line)
+nowServing(line)
