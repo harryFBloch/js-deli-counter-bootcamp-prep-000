@@ -2,7 +2,7 @@ var line = []
 
 function takeANumber(currentLine){
   currentLine.push(currentLine.length + 1);
-  console.log(` You are number ${currentLine.length} in line.`);
+  console.log(` You are ticket number ; you are number ${currentLine.length} in line.`);
 }
 
 function nowServing(currentLine){
