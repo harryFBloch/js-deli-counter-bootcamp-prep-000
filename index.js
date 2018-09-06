@@ -31,7 +31,7 @@ function currentLine(currentLine){
   }else{
     announcement = "The line is currently empty.";
   }
-  return announcement;
+  console.log(announcement);
 }
 
 takeANumber(line)
